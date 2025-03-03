@@ -1,0 +1,44 @@
+ body {
+    background-color: rgb(8, 7, 7);
+    font-family: Arial, Helvetica, sans-serif; /*vai muda a fonte */
+ }
+ul {
+   color: aqua;
+   display: flex;
+   list-style-type: none;/*vai remover a bolinha que fica do lado*/
+   justify-content: space-between;/* vai colocar e texto nav alinhados e com espaço entre eles*/
+   align-items: center;/* vai colocarao centro */
+   padding: 16px; /* vai baixar um pouco do top da pagina */
+   
+   
+}
+h1 {
+   color: aqua;
+   padding: none; 
+}
+
+h2 {
+   color: aqua;
+   margin: 10px;
+}
+a {
+   color: aqua;
+   text-decoration: none; /* VAI TIRAR A LINHA DE BAIXO DO TEXTO */
+   
+}
+img {
+   width: 150px;
+   height: 150px; /* width e height vai mudar o tamanho ad imagem */
+   border-radius: 50%; /* vai mexer na borda da imagem arredondando */
+   border: 5px solid aqua; /* v ai colocar um circulos na imagem */
+}
+
+.center {
+   text-align: center; /* serve pra centralizar os elementos que esta dentro da div msm não sendo um texto */
+  
+}
+.conteins {
+   color: aqua;
+   margin: 12px;
+
+}
