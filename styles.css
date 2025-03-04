@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif; /*vai muda a fonte */
  }
 ul {
-   color: aqua;
+   color: rgb(72, 255, 0);
    display: flex;
    list-style-type: none;/*vai remover a bolinha que fica do lado*/
    justify-content: space-between;/* vai colocar e texto nav alinhados e com espaço entre eles*/
@@ -13,24 +13,24 @@ ul {
    
 }
 h1 {
-   color: aqua;
+   color:  rgb(72, 255, 0);
    padding: none; 
 }
 
 h2 {
-   color: aqua;
-   margin: 10px;
+   color: rgb(72, 255, 0);
+   margin: 30px;
 }
 a {
-   color: aqua;
+   color:  rgb(72, 255, 0);
    text-decoration: none; /* VAI TIRAR A LINHA DE BAIXO DO TEXTO */
    
 }
-img {
+ header img { /* PARA MEXER SOMENTA NA IMAGEM HEADER IMG */
    width: 150px;
    height: 150px; /* width e height vai mudar o tamanho ad imagem */
    border-radius: 50%; /* vai mexer na borda da imagem arredondando */
-   border: 5px solid aqua; /* v ai colocar um circulos na imagem */
+   border: 5px solid  rgb(72, 255, 0); /* v ai colocar um circulos na imagem */
 }
 
 .center {
@@ -38,7 +38,27 @@ img {
   
 }
 .conteins {
-   color: aqua;
-   margin: 12px;
+   color:  rgb(0, 255, 89);
+   margin:  0px 30px;  /* 0px vai ser a espçamento de CIMA e BAIXO, 30px vai ser espaçamento da ESQUERDA e da DIRETA */
+
+}
+footer img {   /* adicinei footer img para mexer somenta na imagem de FOOTER*/
+   width: 40px; 
+   height: 40px;/* width e height para mudar o tamanho das imagens*/
+   border-radius: 50%; /* para arredondar a Imgaem*/
+   border: 5px solid  rgb(72, 255, 0); /* v ai colocar um circulos na imagem */
+
+}
+footer {
+   display: flex;
+   justify-content: center;/* VAI DEIXAR AS IMAGENS ALINHADAS */
+   text-align: center;
+}
+footer a {
+   margin: 20px; /* VAI DEIXAR AS IMAGENS ALINHADAS */
+
+}
+nav a:hover {
+   color: blue; /* qnd passar o MOUSE encima da nav ela ira mudar de cor*/
 
 }
